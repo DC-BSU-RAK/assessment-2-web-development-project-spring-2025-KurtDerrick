@@ -1,0 +1,221 @@
+@font-face {
+    font-family: 'dl font';
+    src: url(BebasNeue-Regular.ttf);
+}
+
+body {
+    background-image: url("DL_Background.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+    background-color: #000000;
+    background-attachment: fixed;
+    margin: 0;
+    height: 100%;
+}
+
+header {
+    background: #000000;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    font-family: 'dl font';
+    font-size: 30px;
+    position: relative;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+nav ul li a::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: -4px;
+    width: 0%;
+    height: 2px;
+    background-color: #fac20a;
+    transition: all 0.3s ease-in-out;
+    transform: translateX(-50%);
+}
+
+nav ul li a:hover {
+    color: #fac20a;
+}
+
+nav ul li a:hover::after {
+    width: 100%;
+}
+
+header nav {
+    padding: 0 20px;
+    font-size: 20px;
+}
+
+.image-container {
+    width: 600px;
+    height: 500px;
+    background-image: url('Kyle_Crane_Face.jpg');
+    background-size: cover;
+    background-position: center 20%;
+    transition: background-image 0.3s ease-in-out;
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.image-container:hover {
+    background-image: url('DL_Kyle_Crane.webp');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+body p{
+    font-family: 'dl font';
+    font-size: 25px;
+    text-align: left;
+    margin: 20px;
+    padding: 0 40px; 
+    max-width: 100%;  
+}
+
+.content-wrapper {
+    background-image: url('Dry_brush_stroke.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    align-items: flex-start; 
+    padding: 30px;  
+    margin-top: 30px;
+    gap: 40px; 
+}
+
+.content-wrapper p {
+    font-family: 'dl font';
+    font-size: 25px;
+    text-align: left;
+    color: white;
+    margin-top: 30px;
+    max-width: 600px;
+} 
+
+.wrapper {
+    background-image: url('Dry_brush_stroke.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+    gap: 30px; 
+    margin-top: 30px;  
+}
+
+.image-container2 {
+    width: 600px;
+    height: 500px;
+    background-image: url('Aiden_Caldwell_face.webp'); 
+    background-size: cover;
+    background-position: center 20%;
+    background-repeat: no-repeat;
+    transition: background-image 0.3s ease-in-out;
+}
+
+.image-container2:hover {
+    background-image: url('Aiden_Card.webp');  
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.wrapper p {
+    color: white;
+    font-size: 24px;
+    font-family: 'dl font';
+    max-width: 300px;
+    margin: 0;
+}
+
+.button {
+    background-color: #ff0000;    
+    color: white;                 
+    padding: 14px 16px;          
+    font-size: 24px;
+    border: none;                
+    border-radius: 1px;           
+    cursor: pointer;              
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #b50101;    
+    color: #d2d2d2;
+}
+
+.footer {
+  background-color: rgba(0, 0, 0, 0.9);
+  color: white;
+  padding: 40px 20px 20px;
+  margin-top: 40px;
+    font-family: 'dl font';
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.footer-section {
+  flex: 1;
+  min-width: 250px;
+}
+
+.footer-section h2, .footer-section h3 {
+  color: #ffa500;
+  margin-bottom: 10px;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin: 8px 0;
+}
+
+.footer-section ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+  text-decoration: underline;
+  color: #ffa500;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding-top: 20px;
+  border-top: 1px solid #333;
+  font-size: 14px;
+}
