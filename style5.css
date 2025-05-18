@@ -68,6 +68,8 @@ main h2 {
     font-family: 'dl font';
     font-size: 50px;
     text-align: center;
+    width: fit-content; 
+    margin: 0 auto; 
 }
 
 .image-gallery {
