@@ -67,8 +67,11 @@ nav ul li a:hover::after {
 main h2 {
     font-family: 'dl font';
     font-size: 50px;
-    text-align: center !important; 
+    text-align: center; 
+    width: fit-content; 
     margin: 0 auto;
+    display: block; 
+}
 
 .image-gallery {
   display: flex;
